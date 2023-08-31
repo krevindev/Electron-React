@@ -33,7 +33,7 @@ const InboxDiv = () => {
     const [activeInboxItem, setActiveInboxItem] = useState(null);
 
     return (
-        <div className="home-left-part flex flex-col flex-grow flex-shrink-[1] box-border resize-x">
+        <div className="home-left-part flex flex-col flex-grow flex-shrink-[1] box-border resize-x select-none">
             <div className="p-3 m-1 flex justify-stretch items-center box-border">
                 <img src="/images/inbox/menu-btn.svg" className="m-3 flex lg:hidden" />
                 <input type="text" className="w-full min-h-max px-2 py-3 rounded-md bg-slate-700 box-border text-white placeholder:text-[#c9c9c9] placeholder:font-bold" placeholder="Search" />
